@@ -1,8 +1,13 @@
 # Capistrano::Checks
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/capistrano/checks`. To experiment with that code, run `bin/console` for an interactive prompt.
+Run some checks before deployment by capistrano.
+The gem includes these checks.
 
-TODO: Delete this and the text above, and describe your gem
+* https://github.com/socioart/capistrano-local_branch_check
+* https://github.com/socioart/capistrano-push_check
+* https://github.com/socioart/capistrano-running_process_check
+* https://github.com/socioart/capistrano-zeitwerk_check
+
 
 ## Installation
 
@@ -22,7 +27,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+in Capfile
+
+    # Enable all checks
+    require "capistrano/checks/all"
+
+    # Or enable each check
+    require "capistrano/local_branch_check"
+    require "capistrano/push_check"
+    require "capistrano/running_process_check"
+    require "capistrano/zeitwerk_check"
 
 ## Development
 
