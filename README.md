@@ -8,22 +8,17 @@ The gem includes these checks.
 * https://github.com/socioart/capistrano-running_process_check
 * https://github.com/socioart/capistrano-zeitwerk_check
 
-
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'capistrano-checks'
+gem "capistrano-checks", git: "https://github.com/socioart/capistrano-checks", tag: "v0.1.0"
 ```
 
 And then execute:
 
     $ bundle install
-
-Or install it yourself as:
-
-    $ gem install capistrano-checks
 
 ## Usage
 
