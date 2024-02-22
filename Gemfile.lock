@@ -1,11 +1,11 @@
 PATH
   remote: .
   specs:
-    capistrano-checks (0.1.0)
+    capistrano-checks (0.1.1)
       capistrano-local_branch_check (~> 0.1.0)
-      capistrano-push_check (~> 0.1.0)
+      capistrano-push_check (~> 0.1.1)
       capistrano-running_process_check (~> 0.2.0)
-      capistrano-zeitwerk_check (~> 0.1.0)
+      capistrano-zeitwerk_check (~> 0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -20,10 +20,10 @@ GEM
       sshkit (>= 1.9.0)
     capistrano-local_branch_check (0.1.0)
       capistrano (>= 3)
-    capistrano-push_check (0.1.0)
+    capistrano-push_check (0.1.1)
     capistrano-running_process_check (0.2.0)
       capistrano (>= 3)
-    capistrano-zeitwerk_check (0.1.0)
+    capistrano-zeitwerk_check (0.1.1)
     concurrent-ruby (1.2.3)
     diff-lcs (1.5.1)
     i18n (1.14.1)
